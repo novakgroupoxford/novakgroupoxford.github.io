@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John J. Tyson on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/authors/john-j.-tyson/</link>
+    <description>Recent content in John J. Tyson on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/authors/john-j.-tyson/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A single light-responsive sizer can control multiple-fission cycles in Chlamydomonas</title>
+      <link>http://cellcycle.org.uk/publication/heldt_currbiol_2019/</link>
+      <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/heldt_currbiol_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dilution and titration of cell-cycle regulators may control cell size in budding yeast</title>
+      <link>http://cellcycle.org.uk/publication/heldt_plos_2018/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/heldt_plos_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genome Stability during Cell Proliferation: A Systems Analysis of the Molecular Mechanisms Controlling Progression through the Eukaryotic Cell Cycle</title>
+      <link>http://cellcycle.org.uk/publication/novak_curropinsysbiol_2018/</link>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/novak_curropinsysbiol_2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

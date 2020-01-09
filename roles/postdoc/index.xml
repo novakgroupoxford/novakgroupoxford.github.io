@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Postdoc on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/roles/postdoc/</link>
+    <description>Recent content in Postdoc on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Nov 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/roles/postdoc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>alexis_barr</title>
+      <link>http://cellcycle.org.uk/member/alexis_barr/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/alexis_barr/</guid>
+      <description>Alexis Barr studied Biological Natural Sciences at the University of Cambridge, specialising in Biochemistry in her third and fourth years. She carried out her PhD in centrosome biology at the CRUK Cambridge Research Institute under the supervision of Fanni Gergely. During that time she used genetic engineering, molecular biology and live cell imaging to study centrosome function and microtubule dynamics during mitotic spindle assembly in vertebrate cells. In 2010, Alexis moved to the Institute of Cancer Research (ICR), London, to join Chris Bakal&amp;rsquo;s team for her Postdoctoral research, in order to take a systems-level approach to analyse the control of the G1/S transition.</description>
+    </item>
+    
+    <item>
+      <title>nadia_hegarat</title>
+      <link>http://cellcycle.org.uk/member/nadia_hegarat/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/nadia_hegarat/</guid>
+      <description>Nadia is interested in the link between cell cycle and genome stability. In cycling cells, the maintenance of genome integrity consists in faithful genome duplication, accurate segregation of the replicated chromosomes and repair of damaged DNA. She started her research career in France (“Régulation et dynamique des génomes”) where she developed a highly specific purification method of DNA repair complexes. In 2008, she joined Helfrid Hochegger’s group in the University of Sussex as a post-doctoral fellow to expand on her interest in cell cycle regulation.</description>
+    </item>
+    
+    <item>
+      <title>stefan_heldt</title>
+      <link>http://cellcycle.org.uk/member/stefan_heldt/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/stefan_heldt/</guid>
+      <description>Stefan Heldt studied Biosystems Engineering at the Otto von Guericke University in Magdeburg, Germany. He received his degree in 2009 after completing a diploma thesis on stochastic simulations of mRNA translation in the group of Prof. Celso Grebogi at the University of Aberdeen, Scotland. He then joined the Max Planck Institute for Dynamics of Complex Technical Systems for a Ph.D. developing mechanistic, multi-scale models of influenza virus infection. This work awarded him the 2016 MTZ Award for Medical Systems Biology.</description>
+    </item>
+    
+  </channel>
+</rss>

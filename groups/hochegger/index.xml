@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hochegger on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/groups/hochegger/</link>
+    <description>Recent content in Hochegger on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/groups/hochegger/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Two Interlinked Bistable Switches Govern Mitotic Control in Mammalian Cells</title>
+      <link>http://cellcycle.org.uk/publication/rata_2018_currbiol/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/rata_2018_currbiol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNA Replication Determines Timing of Mitosis by Restricting CDK1 and PLK1 Activation</title>
+      <link>http://cellcycle.org.uk/publication/hochegger_molcell_2018/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/hochegger_molcell_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bistability of mitotic entry and exit switches during open mitosis in mammalian cells</title>
+      <link>http://cellcycle.org.uk/publication/hegarat_bioessays_2016/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/hegarat_bioessays_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>helfrid_hochegger</title>
+      <link>http://cellcycle.org.uk/member/helfrid_hochegger/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/helfrid_hochegger/</guid>
+      <description>Helfrid Hochegger works on cell cycle control using chemical genetic, advanced microscopy and proteomic approaches. He was trained in the Nobel Prize winning lab of Tim Hunt and has spent his career investigating the function of kinases and phosphatases in the regulation of cell cycle transitions. He distinguished himself by establishing a chemical genetics system to target mitotic and interphase Cdk activity in a vertebrate cell line. This work led to a prestigious Wellcome Trust career development award to set up a laboratory at the Genome Damage and Stability Centre at the University of Sussex.</description>
+    </item>
+    
+    <item>
+      <title>nadia_hegarat</title>
+      <link>http://cellcycle.org.uk/member/nadia_hegarat/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/nadia_hegarat/</guid>
+      <description>Nadia is interested in the link between cell cycle and genome stability. In cycling cells, the maintenance of genome integrity consists in faithful genome duplication, accurate segregation of the replicated chromosomes and repair of damaged DNA. She started her research career in France (“Régulation et dynamique des génomes”) where she developed a highly specific purification method of DNA repair complexes. In 2008, she joined Helfrid Hochegger’s group in the University of Sussex as a post-doctoral fellow to expand on her interest in cell cycle regulation.</description>
+    </item>
+    
+  </channel>
+</rss>

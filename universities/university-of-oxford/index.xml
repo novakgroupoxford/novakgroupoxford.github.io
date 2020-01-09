@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>University of Oxford on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/universities/university-of-oxford/</link>
+    <description>Recent content in University of Oxford on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Nov 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/universities/university-of-oxford/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>bela_novak</title>
+      <link>http://cellcycle.org.uk/member/bela_novak/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/bela_novak/</guid>
+      <description>Bela Novak trained as a biochemical engineer and started his research career as an experimental cell biologist working on the fission yeast cell cycle with Prof. Murdoch Mitchison. In the early nineties, in collaboration with Prof. John Tyson, he pioneered a systems-level description of eukaryotic cell cycle controls. The mathematical modelling approach that he established, based on biochemical reaction kinetics, computer simulations and dynamical systems theory, has proven effective in bridging the gap between molecular control networks and cell physiology.</description>
+    </item>
+    
+    <item>
+      <title>charlotte_smith</title>
+      <link>http://cellcycle.org.uk/member/charlotte_smith/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/charlotte_smith/</guid>
+      <description>Charlotte Smith has worked for the University of Oxford since 2004. She has worked in finance and management roles at the Doctoral Training Centre and the Oxford Centre for Integrative Systems Biology (OCISB). Recently she has been working with departments across the Medical Sciences Division on Athena SWAN processes. For the Bistability of Cell Cycle Transitions project Charlotte works in a part-time project management role.</description>
+    </item>
+    
+    <item>
+      <title>francis_barr</title>
+      <link>http://cellcycle.org.uk/member/francis_barr/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/francis_barr/</guid>
+      <description>Francis Barr is a cell biologist and biochemist working on the regulation of cell growth and division events. As a postdoctoral fellow with Graham Warren he identified new structural proteins of the Golgi apparatus that explain its profound structural rearrangements during the cell cycle. He has gone on to carry out ground-breaking studies on the role of Rab GTPases and their regulators in membrane trafficking. He demonstrated the function of Rab8 in primary cilium formation in human cells, and the molecular basis of altered membrane trafficking in human diseases including Hermansky Pudlak Syndrome, Geroderma Osteodyplastica, and Warburg Micro Syndrome.</description>
+    </item>
+    
+    <item>
+      <title>scott_rata</title>
+      <link>http://cellcycle.org.uk/member/scott_rata/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/scott_rata/</guid>
+      <description>I am a fourth-year DPhil student, modelling the G2/M transition with Helfrid Hochegger&amp;rsquo;s group. We are investigating the factors that contribute to the triggering and to the hysteresis of this transtion.
+My research interests also include the metaphase-to-anaphase transition, modelling the regulation of separase and its effects on the localisation of the chromosomal passenger complex.</description>
+    </item>
+    
+    <item>
+      <title>stefan_heldt</title>
+      <link>http://cellcycle.org.uk/member/stefan_heldt/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/stefan_heldt/</guid>
+      <description>Stefan Heldt studied Biosystems Engineering at the Otto von Guericke University in Magdeburg, Germany. He received his degree in 2009 after completing a diploma thesis on stochastic simulations of mRNA translation in the group of Prof. Celso Grebogi at the University of Aberdeen, Scotland. He then joined the Max Planck Institute for Dynamics of Complex Technical Systems for a Ph.D. developing mechanistic, multi-scale models of influenza virus infection. This work awarded him the 2016 MTZ Award for Medical Systems Biology.</description>
+    </item>
+    
+    <item>
+      <title>ulrike_gruneberg</title>
+      <link>http://cellcycle.org.uk/member/ulrike_gruneberg/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/ulrike_gruneberg/</guid>
+      <description>Ulrike Gruneberg is a Senior Medical Research Fellow at the Sir William Dunn School of Pathology in Oxford. Ulrike received her postdoctoral training in the labs of Elmar Schiebel and Erich Nigg and was subsequently awarded a prestigious Cancer Research UK Career Development Fellowship to start her own lab, initially at the University of Liverpool and then at the University of Oxford. Ulrike’s lab studies the mechanisms that regulate spindle formation and chromosome segregation in mammalian cells.</description>
+    </item>
+    
+  </channel>
+</rss>

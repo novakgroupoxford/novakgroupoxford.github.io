@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexis Barr on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/authors/alexis-barr/</link>
+    <description>Recent content in Alexis Barr on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/authors/alexis-barr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A comprehensive model for the proliferation-quiescence decision in response to endogenous DNA damage in human cells</title>
+      <link>http://cellcycle.org.uk/publication/heldt_pnas_2018/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/heldt_pnas_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NucliTrack: An integrated nuclei tracking application</title>
+      <link>http://cellcycle.org.uk/publication/cooper_bioinformatics_2017/</link>
+      <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/cooper_bioinformatics_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNA damage during S-phase mediates the proliferation-quiescence decision in the subsequent G1 via p21 expression</title>
+      <link>http://cellcycle.org.uk/publication/barr_naturecommunications_2017/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/barr_naturecommunications_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Dynamical Framework for the All-or-None G1/S Transition</title>
+      <link>http://cellcycle.org.uk/publication/barr_cellsystems_2016/</link>
+      <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/barr_cellsystems_2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

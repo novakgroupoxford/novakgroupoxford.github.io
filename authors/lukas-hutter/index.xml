@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lukas Hutter on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/authors/lukas-hutter/</link>
+    <description>Recent content in Lukas Hutter on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/authors/lukas-hutter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interlinked bistable mechanisms generate robust mitotic transitions</title>
+      <link>http://cellcycle.org.uk/publication/novak_cellcycle_2017/</link>
+      <pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/novak_cellcycle_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A PP2A-B55 recognition signal controls substrate dephosphorylation kinetics during mitotic exit</title>
+      <link>http://cellcycle.org.uk/publication/cundell_jcb_2016/</link>
+      <pubDate>Mon, 22 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/cundell_jcb_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Premature Sister Chromatid Separation Is Poorly Detected by the Spindle Assembly Checkpoint as a Result of System-Level Feedback</title>
+      <link>http://cellcycle.org.uk/publication/mirkovic_cellreports_2015/</link>
+      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/mirkovic_cellreports_2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

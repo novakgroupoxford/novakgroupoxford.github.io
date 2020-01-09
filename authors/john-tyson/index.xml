@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Tyson on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/authors/john-tyson/</link>
+    <description>Recent content in John Tyson on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/authors/john-tyson/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cell cycle transitions: a common role for stoichiometric inhibitors</title>
+      <link>http://cellcycle.org.uk/publication/hopkins_mbcell_2017/</link>
+      <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/hopkins_mbcell_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Models in biology: lessons from modeling regulation of the eukaryotic cell cycle</title>
+      <link>http://cellcycle.org.uk/publication/tyson_bmcbiology_2015/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/tyson_bmcbiology_2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roles on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/roles/</link>
+    <description>Recent content in Roles on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Nov 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/roles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dphil Student</title>
+      <link>http://cellcycle.org.uk/roles/dphil-student/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/roles/dphil-student/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Postdoc</title>
+      <link>http://cellcycle.org.uk/roles/postdoc/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/roles/postdoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Principal Investigator</title>
+      <link>http://cellcycle.org.uk/roles/principal-investigator/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/roles/principal-investigator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project Coordinator</title>
+      <link>http://cellcycle.org.uk/roles/project-coordinator/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/roles/project-coordinator/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

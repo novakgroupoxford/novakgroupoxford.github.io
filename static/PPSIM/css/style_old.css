@@ -1,0 +1,106 @@
+
+
+.headerbar{
+  background-color: rgb(233, 233, 233);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.overviewpanel{
+  float: left;
+  margin: 1%;
+  width: 48%;
+  height: 80%;
+}
+
+.scatter{
+  background-color: rgb(255, 255, 255);
+}
+
+.cardspanel{
+  float: right;
+  margin: 1%;
+  width: 48%;
+  height: 80%;
+}
+
+
+.ui-autocomplete {
+  max-height: 100px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+}
+
+.ui-widget-content {
+  border: 5px solid rgb(233, 233, 233);
+  background-color: rgb(233, 233, 233);
+}
+
+.ui-menu-item {
+  font-family: Arial;
+  font-weight: 900;
+  font-size: 10pt;
+  color:rgb(82, 82, 82);
+}
+
+.ui-menu .ui-menu-item a.ui-corner-all:hover, .ui-menu .ui-menu-item a.ui-corner-all:focus, .ui-menu .ui-menu-item a.ui-corner-all:active {
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 10pt;
+    background:#ff8a00;
+    color:#000;
+    border-radius:0;
+    outline:none;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 10pt;
+    background: #ff8a00;
+    border: none;
+    color:#000;
+    border-radius:0;
+}
+
+
+.card_header{
+  background-color: rgb(233, 233, 233);
+  margin: 10px;
+}
+
+.card{
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+}
+
+.button{
+  margin-left: 10px;
+  color: rgb(82, 82, 82);
+}
+
+.uploadbutton{
+  margin-left: 20px;
+  color: rgb(82, 82, 82);
+}
+
+.download_button{
+  color: rgb(82, 82, 82);
+}
+
+
+.input_field{
+  font-family: Arial;
+  font-weight: 900;
+  font-size: 10pt;
+  margin: 10px;
+  border: none;
+}
+
+
+.plot_container{
+  background-color: rgb(233, 233, 233);
+  float: left;
+  margin: 10px;
+}

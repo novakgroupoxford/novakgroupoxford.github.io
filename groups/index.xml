@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Groups on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/groups/</link>
+    <description>Recent content in Groups on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Nov 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/groups/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://cellcycle.org.uk/groups/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/groups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bakal</title>
+      <link>http://cellcycle.org.uk/groups/bakal/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/groups/bakal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Barr</title>
+      <link>http://cellcycle.org.uk/groups/barr/</link>
+      <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/groups/barr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gruneberg</title>
+      <link>http://cellcycle.org.uk/groups/gruneberg/</link>
+      <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/groups/gruneberg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hochegger</title>
+      <link>http://cellcycle.org.uk/groups/hochegger/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/groups/hochegger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Novak</title>
+      <link>http://cellcycle.org.uk/groups/novak/</link>
+      <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/groups/novak/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

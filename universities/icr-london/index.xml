@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Icr London on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/universities/icr-london/</link>
+    <description>Recent content in Icr London on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Nov 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/universities/icr-london/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>alexis_barr</title>
+      <link>http://cellcycle.org.uk/member/alexis_barr/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/alexis_barr/</guid>
+      <description>Alexis Barr studied Biological Natural Sciences at the University of Cambridge, specialising in Biochemistry in her third and fourth years. She carried out her PhD in centrosome biology at the CRUK Cambridge Research Institute under the supervision of Fanni Gergely. During that time she used genetic engineering, molecular biology and live cell imaging to study centrosome function and microtubule dynamics during mitotic spindle assembly in vertebrate cells. In 2010, Alexis moved to the Institute of Cancer Research (ICR), London, to join Chris Bakal&amp;rsquo;s team for her Postdoctoral research, in order to take a systems-level approach to analyse the control of the G1/S transition.</description>
+    </item>
+    
+    <item>
+      <title>chris_bakal</title>
+      <link>http://cellcycle.org.uk/member/chris_bakal/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/chris_bakal/</guid>
+      <description>Chris Bakal’s contributions to biology have been to use imaging and computational methods to describe the signalling networks regulating cell shape. Specifically, the Bakal laboratory has developed the use of Quantitative Morphological Signatures (QMSs) to describe the contribution of individual genes to the regulation of single-cell shape (Bakal et al., Science 2007), automated online phenotype discovery algorithms that search through databases containing millions of images to identify novel cell shapes (Yin et al.</description>
+    </item>
+    
+  </channel>
+</rss>

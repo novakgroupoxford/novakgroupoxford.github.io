@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Your description">
+  <meta name="author" content="Your name">
+  <meta name="generator" content="Hugo 0.46" />
+  <title>BBSRC Bistability of Cell Cycle Transitions Project</title>
+  <!-- Stylesheets -->
+  <link href="http://cellcycle.org.uk/css/bootstrap-v3.3.7/bootstrap.min.css" rel="stylesheet">
+  
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link type="text/css" rel="stylesheet" href="http://cellcycle.org.uk/css/materialize.css"  media="screen,projection"/>
+  <link href="http://cellcycle.org.uk/css/agency.css" rel="stylesheet">
+
+
+  
+
+  <!-- Custom Fonts -->
+  <link href="http://cellcycle.org.uk/font-awesome-v4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://cellcycle.org.uk/academicons-1.7.0/css/academicons.min.css"/>
+
+
+  
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+
+  <body id="page-top" class="index">
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="http://cellcycle.org.uk/">
+          <img src="http://cellcycle.org.uk//img/bi-cycle.png" class="img-responsive" alt="bicycle">
+        </a>
+      
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="http://cellcycle.org.uk/#page-top"></a>
+        </li>
+
+        
+
+        
+        <li>
+          <a  href="http://cellcycle.org.uk/#about">About</a>
+        </li>
+        
+
+        <li>
+          <a  href="http://cellcycle.org.uk/news">News</a>
+        </li>
+
+        
+
+        
+
+
+
+        
+        <li>
+          <a href="http://cellcycle.org.uk/member">Members</a>
+        </li>
+        <li>
+          <a href="http://cellcycle.org.uk/publication">Publications</a>
+        </li>
+
+        
+          <li>
+            <a href="https://novakgroupoxford.github.io/bicycle-hugo/static/PPSIM/timecourse.html">PPSIM</a>
+          </li>
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+    <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h1 id="our-research">Our Research</h1>
+
+<p>During its growth and division cycle the cell replicates all of its components and distributes them to create two daughter cells [1]. It is essential that the underlying processes, DNA replication (S phase), mitosis (M phase) and cell division (CD), take place in a defined sequence with the correct temporal separation: G1 → S → G2 → M → CD → G1 → . Progression through this sequence is characterized by specific transitions at boundaries between sequential stages of the cell cycle. At the <strong>Restriction point</strong> in G1 phase the cell decides whether to proliferate or quiesce (G0). This is followed later by the abrupt <strong>G1/S transition</strong> into S phase (DNA replication). Post-replicative cells in G2 phase enter into mitosis (M phase) at the <strong>G2/M transition</strong>. The decision to segregate sister-chromatids once all have become aligned pairwise on the mitotic spindle takes place at the end of prometaphase and triggers the <strong>meta/anaphase transition and cytokinesis</strong>. Anaphase is followed by the exit from mitosis back into G1 (mitotic exit). Progression through the cell cycle in eukaryotes is controlled by a conserved protein interaction network composed of protein kinases and phosphatases with stoichiometric inhibitors and activators, transcription factors, ubiquitin-conjugating enzymes and the proteasome. The molecular interactions among these cell cycle regulators create a complicated <strong>dynamical system</strong> that oscillates once per cell cycle. In our proposal we focus on a systems-level description of the major cell cycle transitions in the mammalian cell cycle. Our <strong>hypothesis-driven</strong> research is based on our theoretical investigations of generic dynamic characteristics in eukaryotic cell cycle transitions.</p>
+
+<p>
+<figure class="img-post">
+    
+        <img src="https://novakgroupoxford.github.io/bicycle-hugo/img/activator-inhibitor.png" />
+    
+    
+    <figcaption>
+        <h4>Fig.1: Generic network motif of cell cycle transitions</h4>
+        
+    </figcaption>
+    
+</figure>
+
+<em>The three components are embedded in a negative feedback loop. The antagonism between Activator<sub>i</sub> and Inhibitor<sub>i</sub> creates a positive circuit.</em></p>
+
+<p>Progression through each of the cell cycle transitions is controlled by a balance between <strong>inhibitors</strong> and <strong>activators</strong> (Fig.1). Before each cell cycle transition, an inhibitor overwhelms the activator responsible for the transition (refered here as <strong>Inhibitor<sub>i</sub></strong> and <strong>Activator<sub>i</sub></strong>). During the transition Inhibitor<sub>i</sub> gets down-regulated by the activator of the previous cell cycle stage (Activator<sub>i-1</sub>) which leads to activation of Activator<sub>i</sub>. However after the transition, Activator<sub>i</sub> inhibits the activator characteristic for the earlier cell cyle stage (Activator<sub>i-1</sub>), which creates a <strong>negative feedback loop</strong> in the network [2]. The <strong>irreversibility</strong> of cell cycle transitions requires that Inhibitor<sub>i</sub> is kept inactive in the post-transition state despite the disappearance of Activator<sub>i-1</sub>. We argue that the irreversibility of the cell cycle transition is achieved by an <strong>antagonistic interaction</strong> between Activator<sub>i</sub> and its cognate Inhibitor<sub>i</sub>. This <strong>double-negative feedback</strong> makes the post-transition state and Activator<sub>i</sub> self-maintaining by creating a <strong>bistable switch</strong> (Fig.2). The irreversible switch creates a <strong>‘point of no return’</strong> in the cell cycle transition, which can be experimentally tested by the following protocol. In a partly synchronised cell population undergoing the transition, abrupt inactivation of Activatori-1 redirects cells back to the bistable region close to the y-axis. The future cellular fate will be dependent upon whether cells end up above or below the unstable saddle point (Fig.3). Cells early in the transition will return to the pre-transition cell cycle state (cell ) with low Activator<sub>i</sub> and high Inhibitor<sub>i</sub> levels. In contrast, cells later in the transition will manage to reach the post-transition (i) state (cell ) where the levels of Activator<sub>i</sub> and Inhibitor<sub>i</sub> are the opposite.</p>
+
+<p>
+<figure class="img-post">
+    
+        <img src="https://novakgroupoxford.github.io/bicycle-hugo/img/phaseplane.png" />
+    
+    
+    <figcaption>
+        <h4>Fig.2: Two phaseplane portraits of the generic cell cycle switch</h4>
+        
+    </figcaption>
+    
+</figure>
+
+<em>At small Activator<sub>i-1</sub> levels the network has two alternative steady states (solid lines) separated by unstable saddle points (dashed lines). The trajectories are shown by dotted curves.</em></p>
+
+<p>The sequential connection of these switch-like network motifs not only accounts for oscillations of activators and inhibitors during cell cycle progression, but also provides <strong>‘checkpoint’</strong> control over the cell cycle transitions. By monitoring defective states of chromosomes (damaged, not fully replicated, or improperly aligned on the mitotic spindle), intracellular surveillance mechanisms keep Activator<sub>i-1</sub> at a subthreshold level and thereby block the transition. When the defect is repaired, the bistable switch is released to drive the transition as shown (Fig.2).</p>
+
+<p>
+<figure class="img-post">
+    
+        <img src="https://novakgroupoxford.github.io/bicycle-hugo/img/bistability.png" />
+    
+    
+    <figcaption>
+        <h4>Fig.3: The bistable switch creates a ‘point of no return’</h4>
+        
+    </figcaption>
+    
+</figure>
+
+<em>Depletion of the initial activator (Activator<sub>i-1</sub>) during the transition bifurcates the cell population.</em></p>
+
+<p>Our view of eukaryotic cell cycle control is based on years of experience modelling the cell cycle of organisms like budding [3] and fission [4] yeasts, Xenopus [5] and Drosophila [6] embryos. Our prediction that eukaryotic cell cycle transitions are controlled by underlying bistable network motifs has been tested and confirmed experimentally (by the research groups of Cross, Ferrell, Sible, Morgan and Uhlmann) for each cell cycle transition of lower eukaryotes (yeasts and Xenopus embryos). However it remains elusive, whether these same <strong>design principles</strong> are applicable to higher eukaryotic cells with more complex cell cycle control networks. Although there is strong evidence for the universality of eukaryotic cell cycle components, the physiological characteristics of the cell cycle vary widely across cell types. This raises the question whether the control mechanisms are conserved or not? A systematic analysis of bistable and other network motifs in mammalian cell cycle transitions is essential to address this question.</p>
+
+<p>According to our working hypothesis, mammalian cell cycle progression is driven by a <strong>series of bistable switches</strong> connected in a linear sequence (Fig.4). The activators of early cell cycle transitions (from the Restriction Point to the G2/M transition) belong to the Cyclin-dependent protein-kinase (<strong>Cdk</strong>) family (Cdk1, Cdk2, Cdk4, Cdk6 etc.) in complex with their regulatory <strong>Cyclin</strong> subunits (Cyclin-A, -B, -D, -E etc.). During the cell cycle, Cdks are periodically associated with their activating Cyclins whose levels are determined by transcription factors (e.g. E2F) and degradation machineries (ubiquitin-ligases: SCF and APC/C). The activity of Cdk:Cyclin complexes is subject to additional controls by stoichiometric Cdk inhibtors (e.g. p27<sup>Kip1</sup>), inhibitory phosphorylations modulated by Wee1-kinases and Cdc25-phosphatases. The different activators and inhibitors of mammalian cell cycle transitions are summarised in the Table and the experimental evidence for potential bistable network motifs operating at cell cycle transitions are briefly summarised below:</p>
+
+<p>
+<figure class="img-post">
+    
+        <img src="https://novakgroupoxford.github.io/bicycle-hugo/img/motif.png" />
+    
+    
+    <figcaption>
+        <h4>Fig.4: The sequential activation of bistable switches during mammalian cell cycle progression</h4>
+        
+    </figcaption>
+    
+</figure>
+
+<em>The antagonistic relationships between cell cycle activators and inhibitors are illustrated as an auto-activation of activators, for simplicity.</em></p>
+
+<p><strong>Restriction Point (RP)</strong> is enforced by the Retinoblastoma Protein (pRb), a repressor of E2F transcription factors. pRb is inactivated by CycE-dependent kinase via a positive feedback loop:
+E2F → CycE
+ ¬ Rb ¬ E2F. The RP is the only cell cycle transition in mammalian cells where bistability has been experimentally demonstrated [7].</p>
+
+<p><strong>G1/S transition</strong> is triggered by CycE-kinase which turns off degradation of CycA by APC/C<sup>Cdh1</sup> and promotes degradation of the Cdk2 inhibitor p27<sup>Kip1</sup> (double-negative feedback). CycE levels are down-regulated after the transition by activities of Cdk2 (negative feedback) [8,9].</p>
+
+<p><strong>G2/M transition</strong> is facilitated by CycA-kinase turning off the degradation of CycB through inactivation of APC/CCdh1 and by reducing the extent of inhibitory phosphorylation of Cdk1:CycB complexes and PP2A:B55 activity. Once activated, CycB-kinase is able to prevent this inhibitory phosphorylation (positive feedback). CycB also promotes APC/C<sup>Cdc20</sup> dependent destruction of CycA (negative feedback) by a SAC independent mechanism without destabilizing the mitotic state.</p>
+
+<p><strong>Meta/anaphase transition</strong> is initiated by APC/C<sup>Cdc20</sup> whose activation requires CycB dependent phosphorylation. APC/C<sup>Cdc20</sup> triggers anaphase by promoting the degradation of Separase inhibitors, Securin and CycB (negative feedback). However APC/C activity is blocked by the Mitotic Checkpoint Complex (MCC) which is inactivated by APC/C dependent ubiquitylation10 (double-negative feedback).</p>
+
+<p><strong>Mitotic exit</strong> includes the activation of PP2A:B55 phosphatase which counteracts the inhibitory phosphorylations by Cdk1:CycB on the cytokinesis machinery. Since PP2A:B55 is kept inactive during mitosis by its stoichiometric inhibitors (Endosulfine, Arpp19) in a CycB-kinase dependent manner, its initial activation requires CycB degradation by APC/C<sup>Cdc20</sup>. We have proposed11 that PP2A:B55 promotes its own activation by inactivating Greatwall-kinase (positive feedback).</p>
+
+<h3 id="activators-and-inhibitors-of-mammalian-cell-cycle-transitions">Activators and inhibitors of mammalian cell cycle transitions.</h3>
+
+<div class="row text-center">
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-naq5{font-weight:bold;font-family:"Courier New", Courier, monospace !important;;text-align:center;vertical-align:top}
+.tg .tg-r5us{font-family:"Courier New", Courier, monospace !important;;text-align:center;vertical-align:top}
+</style>
+<table class="tg" align="center">
+  <tr>
+    <th class="tg-naq5">Cell Cycle Transition</th>
+    <th class="tg-naq5">Inhibitors</th>
+    <th class="tg-naq5">Activators</th>
+  </tr>
+  <tr>
+    <td class="tg-r5us">Restriction point</td>
+    <td class="tg-r5us">Retinoblastoma Protein (pRb)</td>
+    <td class="tg-r5us">Cdk4,6:CycD,Cdk2:CycE, E2F</td>
+  </tr>
+  <tr>
+    <td class="tg-r5us">G1/S</td>
+    <td class="tg-r5us">p27:Kip1, APC/C:Cdh1</td>
+    <td class="tg-r5us">Cdk2:CycE, Cdk2:CycA</td>
+  </tr>
+  <tr>
+    <td class="tg-r5us">G2/M</td>
+    <td class="tg-r5us">Wee1, Myt1, PP2A:B55</td>
+    <td class="tg-r5us">Cdk1:CycB, Cdk1:CycA, Cdc25</td>
+  </tr>
+  <tr>
+    <td class="tg-r5us">Meta/Anaphase</td>
+    <td class="tg-r5us">Mitotic Checkpoint Comples (MCC)</td>
+    <td class="tg-r5us">Anaphase Promoting Complex/Cyclosome (APC/C)</td>
+  </tr>
+  <tr>
+    <td class="tg-r5us">Mitotic Exit</td>
+    <td class="tg-r5us">Cdk1:CycB, Endosulfine (Arpp19), Greatwall-kinase</td>
+    <td class="tg-r5us">PP2A:B55, Polo-kinase, Aurora-kinases</td>
+  </tr>
+</table>
+</div>
+
+<h3 id="funded-by-the-bbsrc-grant-number-bb-m00354x-1">Funded by the BBSRC grant number BB/M00354X/1</h3>
+
+<h2 id="references">References</h2>
+
+<p>1 Morgan, D. O. The Cell Cycle: Principles of Control., (New Science Press, 2007).</p>
+
+<p>2 Verdugo, A., Vinod, P. K., Tyson, J. J. &amp; Novak, B. Molecular mechanisms creating bistable switches at cell cycle transitions. Open biology 3, 120179, doi:10.1098/rsob.120179 (2013).</p>
+
+<p>3 Chen, K. C. et al. Kinetic analysis of a molecular model of the budding yeast cell cycle. Mol Biol Cell 11, 369-391 (2000).</p>
+
+<p>4 Novak, B. &amp; Tyson, J. J. Modeling the control of DNA replication in fission yeast. Proc Natl Acad Sci U S A 94, 9147-9152 (1997).</p>
+
+<p>5 Novak, B. &amp; Tyson, J. J. Numerical analysis of a comprehensive model of M-phase control in Xenopus oocyte extracts and intact embryos. J Cell Sci 106, 1153-1168 (1993).</p>
+
+<p>6 Calzone, L., Thieffry, D., Tyson, J. J. &amp; Novak, B. Dynamical modeling of syncytial mitotic cycles in Drosophila embryos. Mol Syst Biol 3, 131 (2007).</p>
+
+<p>7 Yao, G., Lee, T. J., Mori, S., Nevins, J. R. &amp; You, L. A bistable Rb-E2F switch underlies the restriction point. Nat Cell Biol 10, 476-482 (2008).</p>
+
+<p>8 Kalaszczynska, I. et al. Cyclin A is redundant in fibroblasts but essential in hematopoietic and embryonic stem cells. Cell 138, 352-365, doi:10.1016/j.cell.2009.04.062 (2009).</p>
+
+<p>9 Krek, W. et al. Negative regulation of the growth-promoting transcription factor E2F-1 by a stably bound cyclin A-dependent protein kinase. Cell 78, 161-172 (1994).</p>
+
+<p>10 Musacchio, A. &amp; Ciliberto, A. The spindle-assembly checkpoint and the beauty of self-destruction. Nat Struct Mol Biol 19, 1059-1061, doi:10.1038/nsmb.2429 (2012).</p>
+
+<p>11 Hegarat, N. et al. PP2A/B55 and Fcp1 regulate Greatwall and Ensa dephosphorylation during mitotic exit. PLoS Genet 10, e1004004, doi:10.1371/journal.pgen.1004004 (2014).</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    
+      <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright" style="color:#fff">Built by <a href="http://biotop.co">Lukas Hutter</a></span>
+      </div>
+      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+
+          
+            <li><a href="#">Privacy Policy</a></li>
+          
+            <li><a href="#">Terms of Use</a></li>
+          
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+    
+
+    <!-- jQuery -->
+<script src="http://cellcycle.org.uk/js/jquery-v3.3.1/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="http://cellcycle.org.uk/js/bootstrap-v3.3.7/bootstrap.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cellcycle.org.uk/js/classie-v1.0.1.js"></script>
+<script src="http://cellcycle.org.uk/js/cbpAnimatedHeader-v1.0.0.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="http://cellcycle.org.uk/js/jqBootstrapValidation-v1.3.6-dirty.js"></script>
+<script src="http://cellcycle.org.uk/js/contact_me.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="http://cellcycle.org.uk/js/agency.js"></script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="http://cellcycle.org.uk/js/materialize.min.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>PPSIM-Visualisation</title>
+
+  <!-- STYLESHEETS -->
+  <!-- flexbox layout -->
+  <link rel="stylesheet" href="/css/flex.css" type="text/css">
+  <!-- styling of divs -->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <!-- styling of svg -->
+  <link rel="stylesheet" href="/css/svg-styles.css" type="text/css">
+  <!-- styling of autocomplete -->
+  <!-- <link rel="stylesheet" href="/css/autocomplete.css" type="text/css"> -->
+  <!--  Fontawesome icons-->
+  <link rel="stylesheet" href="/font-awesome-4.5.0/css/font-awesome.min.css">
+
+  <!-- FONTS -->
+  <!-- Ubuntu Mono -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+  <!-- Lato -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900,700,300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+  <!-- LIBRARIES -->
+  <script src="/js/jquery-1.12.0.min.js"></script>
+  <!-- D3 -->
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+
+  <!-- Custom d3-code -->
+  <script src="/js/utils/local.js"></script>
+  <script src="/js/typeahead/typeahead.bundle.min.js"></script>
+  <script src="/js/utils/lookup_tables.js"></script>
+  <script src="/js/plot-components/annotations.js"></script>
+  <script src="/js/plot-components/sequence.js"></script>
+  <script src="/js/plot-components/ratebox.js"></script>
+  <script src="/js/plot-components/cmbox.js"></script>
+  <script src="/js/plot-components/kinetic_profile.js"></script>
+  <script src="/js/plot-components/timecourse_setup.js"></script>
+  <script src="/js/plot-components/timecourse_plot.js"></script>
+  <script src="/js/utils/helpers.js"></script>
+  <script src="/js/utils/parse_data.js"></script>
+  <script src="/js/plot-components/make_downloadable.js"></script>
+  <script src="/js/controls.js"></script>
+  <script src="/js/docpages.js"></script>
+  <script src="/js/compose.js"></script>
+  <script src="/js/hist.js"></script>
+  <script src="/js/overview.js"></script>
+  <script src="/js/mouse_hover.js"></script>
+  <script src="/js/settings/settings_timecourse.js"></script>
+  <script src="/js/settings/settings_profile.js"></script>
+  <script src="/data/substrate_ids.js"></script>
+
+</head>
+<body>
+
+ <div id="main">
+    <div class="overview">
+
+      <div class= "row-1">
+        <div class="scatter" id="scatterdiv"></div>
+        <div class="yhist" id="yhist"></div>
+      </div>
+
+      <div class= "row-2">
+        <div class="xhist" id="xhist"></div>
+        <div class="grid">
+          <div class="formbox">
+          <form class="filterdset">
+            <div>
+              <p class = "filter-header">Filter:</p>
+            </div>
+            <div>
+              <input type="radio" name="filterdset" class="with-font" value="sel" id="nonzero_ind" checked>
+              <label class="filter" for="nonzero_ind">k_ind > 0</label>
+            </div>
+            <div>
+              <input type="radio" name="filterdset" class="with-font" value="sel" id="nonzero_sub" checked>
+              <label class="filter" for="nonzero_sub">k_b55 > 0</label>
+            </div>
+            <div>
+              <input type="radio" name="filterdset" class="with-font" value="sel" id="greater_zero" checked>
+              <label class="filter" for="greater_zero">k_b55 > 0 and k_ind > 0</label>
+            </div>
+            <div>
+              <input type="radio" name="filterdset" class="with-font" value="sel" id="greater_or_zero" checked>
+              <label class="filter" for="greater_or_zero">k_b55 > 0 or k_ind > 0</label>
+            </div>
+            <div>
+              <input type="radio" name="filterdset" class="with-font" value="sel" id="all">
+              <label class="filter" for="all">Show all points</label>
+            </div>
+            <div class = "filter">
+              <p>...or use the grey box on the histograms to zoom</p>
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="details">
+      <div class="detailsheader header">
+        <div class="hdritem hdritem-active" id="doc">
+          <i class="fa fa-file-text" title="Documentation"></i>
+        </div>
+        <div class="hdritem" id="cardsview">
+          <i class="fa fa-line-chart" title="Card-based view"></i>
+        </div>
+        <div class="hdritem" id="profileview">
+          <i class="fa fa-th-list" title="Profile-based view"></i>
+        </div>
+        <div class="hdritem" id="listview">
+          <i class="fa fa-list-ol" title="Show the full peptide list"></i>
+        </div>
+        <!-- <div class="hdritem" id="settingsview">
+          <i class="fa fa-cogs" title="Settings"></i>
+        </div> -->
+        <div class="hdritem searchbar" id="searchbar">
+          <div class="search-icon" id="destroyall">
+            <i class="fa fa-times"></i>
+          </div>
+
+          <div class="dropdown" id="bloodhound">
+            <input class="typeahead" type="text" placeholder="Search for ...">
+            <form class="dropdown-content">
+              <div class="searchoption">
+                <input type="radio" name="serachtype" class="with-font" value="sel" id="spep" checked>
+                <label for="spep">peptides</label>
+              </div>
+              <div class="searchoption">
+                <input type="radio" name="serachtype" class="with-font" value="sel" id="sgn">
+                <label for="sgn">gene names</label>
+              </div>
+            </form>
+          </div>
+          <div class="search-icon" id="magnifying">
+            <i class="fa fa-search"></i>
+          </div>
+        </div>
+      </div>
+      <div class= "documentation details-page active">
+        <div id="doc_selectors">
+          <div class="active" id="howto_button">Documentation</div>
+          <div id="dataset_button">The Dataset</div>
+          <div id="model_button">The Model</div>
+        </div>
+        <div class="docpage" id="howto">
+          <img src="logo.svg" width="300px" float="none">
+          <h1>Visualisation-Dashboard</h1>
+          <div id="workspace">
+            <p>The Workspace is divided into two parts: the <b>overview-panel</b> on the left-hand side, and the <b>details-panel</b> on the right hand side.</p>
+            <div id="doc_details">
+              <h3>Details-Panel</h3>
+              <p>The details-panel is divided into five sections:
+                <ul>
+                  <li><i class="fa fa-file-text"></i> <b>Documentation-Tab</b><br> This is the tab that's active when you are reading this, and contains information on how to use this platform, as well as on the underlying experiments and models.</li>
+                  <li><i class="fa fa-line-chart"></i> <b>Cards-View</b><br>In this tab, detiled plots of the timecourse data for individual peptides are collected.</li>
+                  <li><i class="fa fa-th-list"> </i> <b>Profile-View</b><br>In this tab, profile views are collected. These are similar to the plots in the card-based view, but are optimised for comparison of sequence similarities, and lack details on the timecourses.</li>
+                  <li><i class="fa fa-list-ol"></i> <b>Peptide-list</b><br>This tab contains a list of all the peptides in the dataset. Click on an entry to produce card and profile of it.</li>
+                </ul>
+              </p>
+              <h4>Interactions</h4>
+              <p>
+                <ul>
+                  <li><b>Connected views</b><br>
+                    Views relating to peptides are linked: Hovering over a point in the scatterplot, will highlight the corresponding card or profile, if the respective tab is active. Likewise, hovering over a card, profile or entry in the peptide-list will highlight the corresponding point in the dataset.
+                  </li>
+                  <li>
+                    <i class="fa fa-search"></i> <b>Searching for peptides</b><br>
+                      The search bar at the top of the details-panel allows you to search for peptides based on their gene-names or peptide ids. In order to generate a card and profile for a selected entry press enter. If you are searching for gene names, all corresponding matches in the dataset will be plotted.
+                  </li>
+                  <li><i class="fa fa-cloud-download"></i> <b>Downloading plots</b><br>
+                    The download icon on cards and profiles allows you to download the corresponding chart as svg. On Safari, this will open a new tab, which displays only the svg. On Chrome and Firefox, the svg should download automatically
+                  </li>
+                  <li><i class="fa fa-times"></i> <b>Destroying plots</b><br>
+                    The destroy button on cards and profiles allows you to remove them from the workspace. Items associated with the same peptide are connected, therefore clicking the destroy button on a card will also remove the associated profile.
+                    The button to clear the entire workspace is located in the search bar of the details-panel.
+                  </li>
+                  <li><i class="fa fa-question"></i> <b>Look-up on pubmed</b><br>
+                    This button will open a new tab in your browser and look up the associated protein in the pubmed database.
+                  </li>
+                </ul>
+              </p>
+            </div>
+            <div id="doc_overview">
+              <h3>Overview-Panel</h3>
+              <p>
+                The overview-panel is designed to provide you with a convenient interface for producing scatterplots of the dataset:
+                <ul>
+                  <li>
+                    <b>The two histograms</b> next to the y axis and below the x-axis show the distribution of peptides along the that particular axis. The coloured set of bars correspond to the subset of peptides shown in the scatterplot.
+                  </li>
+                  <li>
+                    <b>The scatterplot area</b>
+                  </li>
+                </ul>
+                <h4>Interactions</h4>
+                <ul>
+                  <li>
+                    <b>Zooming</b> You can zoom in on the scatter plot by resizing the grey box overlaid on the histograms.
+                  </li>
+                  <li>
+                    <b>Hovering over a datapoint</b> in the scatterplot will show you the id of the corresponding peptide, which is composed of the gene-name, the phosphorylation-site and an indication of whether it was seen in the supernatant or in the pellet-fraction.
+                  </li>
+                  <li>
+                    <b>Clicking a datapoint</b> in the scatterplot will produce detailed plots that can be viewed in the details-panel
+                  </li>
+                  <li>
+                    <b>Drawing a rectangle</b> on the scatterplot-area will select all points contained within its area and plot detailed plots that are accessible through the details-panel.
+                  </li>
+                </ul>
+              </p>
+              </div>
+            <div class="doc browser">
+              <h3>Browser Compatibility</h3>
+              <p>
+                <i class="fa fa-chrome"></i> 47+<br>
+                <i class="fa fa-firefox"></i> 43+<br>
+                <i class="fa fa-safari"></i> 8+<br>
+              </p>
+              <p>This tool works best with the most recent versions of Google Chrome, Firefox and Safari.</p>
+              <p><b>Mobile:</b> A mobile-optimised version of this tool is under development</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="docpage hidden" id="dataset">
+          <h3>Analysis of dephosphorylation assays by mass spectrometry </h3>
+          <img src="data/experiment.svg">
+          <p>
+            Lys-C/trypsin digested peptide pools from each sample were dimethyl-labelled using cyanoborohydride and deuterated (heavy +32Da) or non-deuterated (light +28Da) formaldehyde. Samples taken at this stage were used to check labelling efficiency and for the total proteome. A pairwise mixing strategy was followed where a heavy sample from each time point was mixed 1:1 with the matched light t=0 sample. Phosphopeptides isolated from these mixed samples with titanium dioxide chromatography were analysed by nano-LC MS/MS. MaxQuant was used to identify peptide sequences and phosphorylation sites, to calculate the intensity of the matched heavy and light peptide pairs, and to assemble a total mitotic cell proteome dataset. This heavy/light ratio provides a relative quantitation of changes in phosphorylation state.
+          </p>
+        </div>
+        <div class="docpage hidden" id="model">
+          <h3>Mathematical model to describe substrate dephosphorylation by B55 dependent and independent pathways </h3>
+          <img src="data/model.svg" class="model">
+          <h4>1.) Expression of the hypothesis that informed the experimental design as mathematical model</h4>
+          <p>
+            In order to establish a meaningful framework for the analysis of the dataset, we express the assumptions that informed the design of the experiment as mathematical model. The dephosphorylation of a peptide in the dataset is modelled to be dependent on two alternative pathways: dephosphorylation by a constitutively active phosphatase, and PP2A:B55-dependent dephosphorylation, which is subject to regulation by the BEG-pathway. The latter is modelled as a complex-formation between PP2A:B55 and phosphorylated ENSA (determined by the rates <emph>k_ass</emph> and <emph>k_diss</emph>). ENSA is slowly dephosphorylated (<emph>k_cat</emph>) releasing unphosphorylated ENSA and active PP2A:B55.
+          </p>
+          <h4>2.) Obtaining an activity profile for PP2A:B55 by fitting the model to data for pENSA and PRC1-pT481</h4>
+          <p>
+            The B55- and Greatwall-depletion data are re-scaled based on the information on relative abundance of the phosphorylated peptides at timepoint 0, which is derived from the crossmixing experiments. Thus re-scaled, the data for ENSA and PRC1-pT481 (a well-validated substrate of PP2A:B55) dephosphorylation are used jointly to find an optimal parameterset for the model, based on a box-optimisation algorithm and an adequate objective function that expresses the agreement between model-simulation and experimental data.
+          </p>
+          <h4>3.) Fitting the simplified model to the data for each peptide in the dataset</h4>
+          <p>
+            Building on the optimal parameterset obtained above, we are able to predict the effective PP2A:B55-activity profile for all three conditions. This allows us to simplify the model substantially, making a large-scale fitting approach computationally tractable on a desktop computer.
+            The timecourses corresponding to B55- and Greatwall-depletion are again corrected based on the crossmixing data, and the simplified model is fitted to the timecourses of each peptide in the dataset. As a result, the dynamic behaviour of each peptide can be effectively described by three parameters:
+            <ul>
+              <li><b>k_b55</b> - The B55-dependent rate of dephosphorylation</li>
+              <li><b>k_ind</b> - The rate of dephosphorylation independent of PP2A:B55</li>
+              <li><b>The value of the objective function</b> -  A measure of the quality of the fit.</li>
+            </ul>
+          </p>
+          <h4>4.) Partitioning of the dataset based</h4>
+          <p>
+            Given that for most peptides eight timepoints were measured in three conditions with three experimental repeats, representing the data by three parameters is equivalent to a 24-fold compression of the dataset. This renders partitioning of the dataset based on the fitting parameters more robust and the correspondence of the parameters to well-defined patterns of behaviour expressed by the model makes the strategy easily interpretable.
+            We partition the dataset to find high-confidence PP2A-B55-dependent substrates as follows:
+            <ol>
+              <li><b>Fitting-Quality Cutoff:</b> We define a quality-threshold for the objective function at 0.005. Any peptide with a value of the objective function higher than the defined threshold is excluded from the search for high-confidence substrates.</li>
+              <li><b>Non-zero PP2A:B55-dependent rate:</b> As a second step, we exclude peptides from the search whose B55-dependent rate was zero, or smaller than the corresponding B55-independent rate.</li>
+              <li><b>k_b55 in top 15-percentile of PP2A:B55-dependent rates:</b> From the remaining subset, all peptides whose B55-dependent rate lies in the top 15-percentile of PP2A:B55-dependent rate of dephosphorylation are considered high-confidence PP2A:B55-dependent substrates.</li>
+            </ol>
+            Using this strategy, we identify 203 high-confidence B55-dependent susbtrates in the overall fitted dataset (7391 peptides). An analogous strategy is used to identify 153 high-confidence B55-independent substrates.
+          </p>
+        </div>
+      </div>
+      <div class= "profiles hidden details-page"></div>
+      <div class= "cards hidden details-page" id="cardsgrid"></div>
+      <div class= "peptidelist hidden details-page" id="peptidelist">
+      </div>
+      </div>
+    </div>
+ </div>
+ <script>
+   function makeTypeahead(){
+     myids = get_ids();
+     // constructs the suggestion engine
+     ids_engine = new Bloodhound({
+       datumTokenizer: Bloodhound.tokenizers.whitespace,
+       queryTokenizer: Bloodhound.tokenizers.whitespace,
+       // `states` is an array of state names defined in "The Basics"
+       local: myids[search_for]
+     });
+     ids_engine.initialize();
+
+     $('#bloodhound .typeahead').typeahead({
+       hint: true,
+       highlight: true,
+       minLength: 1,
+     },
+     {
+         name: 'states',
+         source: ids_engine,
+         limit: 250,
+     });
+   }
+
+   function updateTypeahead(){
+     myids = get_ids();
+     ids_engine.clear()
+     ids_engine.local = myids[search_for];
+     ids_engine.initialize(true)
+   }
+
+  makeTypeahead();
+  activateToggles();
+  activatepageToggles();
+  makeOverview();
+
+  $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
+    if(search_for == "peptides"){
+      compose(suggestion);
+    } else if (search_for == "gene_names") {
+      for(i=0; i<myids.peptides.length; i++){
+        if(myids.peptides[i].split("_")[0] == suggestion){ compose(myids.peptides[i]); }
+      }
+    };
+    goToCardsview();
+  });
+
+
+
+  //
+  // $('.typeahead').bind('typeahead:autocomplete', function(ev, suggestion) {
+  //   activateNode("g#node__" + suggestion)
+  //   goToCardsview();
+  // });
+
+  $('.typeahead').bind('typeahead:cursorchange', function(ev, cursor) {
+    inactivateNode("g.node.highlight")
+    activateNode("g#node__" + cursor)
+    goToCardsview();
+  });
+
+  $('.typeahead').bind('typeahead:close', function(ev, cursor) {
+    inactivateNode("g.node.highlight")
+  });
+
+ </script>
+</body>
+
+</html>

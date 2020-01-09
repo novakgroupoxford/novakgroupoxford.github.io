@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jörg Mansfeld on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/authors/j%C3%B6rg-mansfeld/</link>
+    <description>Recent content in Jörg Mansfeld on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/authors/j%C3%B6rg-mansfeld/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DNA damage during S-phase mediates the proliferation-quiescence decision in the subsequent G1 via p21 expression</title>
+      <link>http://cellcycle.org.uk/publication/barr_naturecommunications_2017/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/barr_naturecommunications_2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

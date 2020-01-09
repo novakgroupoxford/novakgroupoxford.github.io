@@ -1,0 +1,284 @@
+body {
+font: 1vh Lato;
+font-weight: 300;
+background: #ffffff;
+}
+
+b {
+  font-weight: 400;
+}
+
+img {
+    float: left;
+    width: 300px;
+    /*display: block;*/
+    margin-left: 20px;
+margin-right: 20px;
+}
+
+img.model{
+  width: 400px;
+}
+
+.tt-input, /* UPDATE: newer versions use tt-input instead of tt-query */
+.tt-hint {
+    width: 396px;
+    height: 20px;
+    padding: 5px 12px;
+    margin: 5px;
+    margin-right: 0px;
+    font-family: Lato;
+    font-size: 1.8vh;
+    line-height: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 1px;
+    outline: none;
+}
+
+.tt-hint {
+    color: #999;
+}
+
+.searchoption{
+  text-align: left;
+  font-size: 1.8vh !important;
+}
+
+.search-icon{
+  font-size: 1.8vh;
+}
+
+.tt-menu { /* UPDATE: newer versions use tt-menu instead of tt-dropdown-menu */
+    width: 422px;
+    margin-left:5px;
+    margin-top: -5px;
+    padding: 8px 0;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    max-height: 240px;
+    overflow: auto;
+}
+
+.tt-suggestion {
+    padding: 3px 20px;
+    font-size: 1.8vh;
+    line-height: 24px;
+}
+.tt-suggestion:hover,
+.tt-cursor  {
+	color: #fff;
+	background-color: #428bca;
+}
+.tt-suggestion.tt-is-under-cursor a {
+	color: #fff;
+}
+.tt-suggestion p {
+	margin: 0;
+}
+
+
+#main > .overview {
+background: #efefef;
+/*box-shadow: 2px 2px 2px #efefef;*/
+}
+
+#main > .details {
+background: #efefef;
+}
+
+.row-1 > .scatter {
+  background: #ffffff;
+  box-shadow: 5px 5px 5px #dedede;
+}
+
+.node.hidden > circle {
+  display: none;
+}
+
+.row-1 > .yhist {
+  background: #ffffff;
+  box-shadow: 5px 5px 5px #dedede;
+}
+
+.row-2 > .grid{
+  background: #ffffff;
+  box-shadow: 5px 5px 5px #dedede;
+}
+
+.grid-row > .grid-component{
+  opacity: 0.15;
+}
+
+.formbox{
+  padding-left: 20px;
+}
+
+.filter{
+  font: 14px Lato;
+}
+
+.filter-header{
+  font: 16px Lato;
+}
+
+.row-2 > .xhist {
+  background: #ffffff;
+  box-shadow: 5px 5px 5px #dedede;
+}
+
+.bar {
+  fill: #bbbbbb;
+  border: 2px;
+  border-color: #ffffff;
+}
+
+.details > .detailspage{
+  box-shadow: 2px 2px 2px #efefef;
+}
+
+.cards > .card {
+  background: #ffffff;
+  box-shadow: 5px 5px 5px #dddddd;
+}
+
+.cards > .card-active {
+  box-shadow: 5px 5px 5px #bbbbbb;
+}
+
+.profiles > .profile{
+  background: #ffffff;
+  box-shadow: 5px 5px 5px #dddddd;
+}
+
+.profiles > .profile-active {
+  box-shadow: 5px 5px 5px #bbbbbb;
+}
+
+.brush{
+  stroke: rgba(92, 92, 92, 0.78);
+  stroke-width: 1px;
+  fill: rgba(128, 126, 126, 0.2);
+}
+
+.selected > circle{
+  fill: rgb(65, 174, 198);
+}
+
+
+.selected.k_b55 > rect{
+  fill: #0595b5;
+}
+
+.selected.k_ind > rect{
+  fill: #cd0000;
+}
+.selected.l_b55 > rect{
+  fill: #0595b5;
+}
+
+.selected.l_ind > rect{
+  fill: #cd0000;
+}
+
+.selected.ra_b55 > rect{
+  fill: #ffc900;
+}
+
+.selected.ra_gwl > rect{
+  fill: #5fbd00;
+}
+
+.selected.net_charge > rect{
+  fill: #7d3caa;
+}
+
+header, footer {
+  background: #efefef;
+}
+
+.hdritem {
+  /*background: #ffffff;*/
+  font-size: 1.8vh;
+}
+
+
+.card_header{
+  background: rgba(23, 74, 138, 0);
+  z-index: 1000;
+
+}
+
+.button {
+  font-size: 1.8vh;
+  color: #cccccc;
+}
+
+.button > a {
+  font-size: 1.8vh;
+  color: #cccccc;
+}
+
+a {
+  font-size: 1.8vh;
+  color: #cccccc;
+}
+
+.button > a > i {
+  font-size: 1.8vh;
+  color: #cccccc;
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: 400;
+  color: rgb(14, 56, 94);
+}
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css);
+
+input[type=radio].with-font,
+input[type=checkbox].with-font {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+input[type=radio].with-font ~ label:before,
+input[type=checkbox].with-font ~ label:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f1db";
+    letter-spacing: 10px;
+    font-size: 1.2vh;
+    color: #535353;
+    width: 1.4em;
+}
+
+input[type=radio].with-font:checked ~ label:before,
+input[type=checkbox].with-font:checked ~ label:before  {
+    content: "\f00c";
+    font-size: 1.2vh;
+    color: darkgreen;
+    letter-spacing: 5px;
+}
+input[type=checkbox].with-font ~ label:before {
+    content: "\f096";
+}
+input[type=checkbox].with-font:checked ~ label:before {
+    content: "\f046";
+    color: darkgreen;
+}
+input[type=radio].with-font:focus ~ label:before,
+input[type=checkbox].with-font:focus ~ label:before,
+input[type=radio].with-font:focus ~ label,
+input[type=checkbox].with-font:focus ~ label
+{
+    color: green;
+}

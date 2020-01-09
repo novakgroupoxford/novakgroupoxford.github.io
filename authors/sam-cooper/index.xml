@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sam Cooper on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/authors/sam-cooper/</link>
+    <description>Recent content in Sam Cooper on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/authors/sam-cooper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A comprehensive model for the proliferation-quiescence decision in response to endogenous DNA damage in human cells</title>
+      <link>http://cellcycle.org.uk/publication/heldt_pnas_2018/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/heldt_pnas_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NucliTrack: An integrated nuclei tracking application</title>
+      <link>http://cellcycle.org.uk/publication/cooper_bioinformatics_2017/</link>
+      <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/cooper_bioinformatics_2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

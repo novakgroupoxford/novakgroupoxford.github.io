@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scott Rata on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/authors/scott-rata/</link>
+    <description>Recent content in Scott Rata on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/authors/scott-rata/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Two Interlinked Bistable Switches Govern Mitotic Control in Mammalian Cells</title>
+      <link>http://cellcycle.org.uk/publication/rata_2018_currbiol/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/rata_2018_currbiol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interlinked bistable mechanisms generate robust mitotic transitions</title>
+      <link>http://cellcycle.org.uk/publication/novak_cellcycle_2017/</link>
+      <pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/novak_cellcycle_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two Bistable Switches Govern M Phase Entry</title>
+      <link>http://cellcycle.org.uk/publication/mochida_currbiol_2016/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/mochida_currbiol_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bistability of mitotic entry and exit switches during open mitosis in mammalian cells</title>
+      <link>http://cellcycle.org.uk/publication/hegarat_bioessays_2016/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/hegarat_bioessays_2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

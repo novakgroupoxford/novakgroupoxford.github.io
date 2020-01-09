@@ -1,0 +1,11 @@
+.axis {
+    fill: none;
+    stroke: #AAA;
+    stroke-width: 1px;
+}
+.tick {
+    stroke: none;
+    fill: #666666;
+    font-size: 1.2em;
+    font-family:Lato;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Principal Investigator on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>http://cellcycle.org.uk/roles/principal-investigator/</link>
+    <description>Recent content in Principal Investigator on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Nov 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cellcycle.org.uk/roles/principal-investigator/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>bela_novak</title>
+      <link>http://cellcycle.org.uk/member/bela_novak/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/bela_novak/</guid>
+      <description>Bela Novak trained as a biochemical engineer and started his research career as an experimental cell biologist working on the fission yeast cell cycle with Prof. Murdoch Mitchison. In the early nineties, in collaboration with Prof. John Tyson, he pioneered a systems-level description of eukaryotic cell cycle controls. The mathematical modelling approach that he established, based on biochemical reaction kinetics, computer simulations and dynamical systems theory, has proven effective in bridging the gap between molecular control networks and cell physiology.</description>
+    </item>
+    
+    <item>
+      <title>chris_bakal</title>
+      <link>http://cellcycle.org.uk/member/chris_bakal/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/chris_bakal/</guid>
+      <description>Chris Bakal’s contributions to biology have been to use imaging and computational methods to describe the signalling networks regulating cell shape. Specifically, the Bakal laboratory has developed the use of Quantitative Morphological Signatures (QMSs) to describe the contribution of individual genes to the regulation of single-cell shape (Bakal et al., Science 2007), automated online phenotype discovery algorithms that search through databases containing millions of images to identify novel cell shapes (Yin et al.</description>
+    </item>
+    
+    <item>
+      <title>francis_barr</title>
+      <link>http://cellcycle.org.uk/member/francis_barr/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/francis_barr/</guid>
+      <description>Francis Barr is a cell biologist and biochemist working on the regulation of cell growth and division events. As a postdoctoral fellow with Graham Warren he identified new structural proteins of the Golgi apparatus that explain its profound structural rearrangements during the cell cycle. He has gone on to carry out ground-breaking studies on the role of Rab GTPases and their regulators in membrane trafficking. He demonstrated the function of Rab8 in primary cilium formation in human cells, and the molecular basis of altered membrane trafficking in human diseases including Hermansky Pudlak Syndrome, Geroderma Osteodyplastica, and Warburg Micro Syndrome.</description>
+    </item>
+    
+    <item>
+      <title>helfrid_hochegger</title>
+      <link>http://cellcycle.org.uk/member/helfrid_hochegger/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/helfrid_hochegger/</guid>
+      <description>Helfrid Hochegger works on cell cycle control using chemical genetic, advanced microscopy and proteomic approaches. He was trained in the Nobel Prize winning lab of Tim Hunt and has spent his career investigating the function of kinases and phosphatases in the regulation of cell cycle transitions. He distinguished himself by establishing a chemical genetics system to target mitotic and interphase Cdk activity in a vertebrate cell line. This work led to a prestigious Wellcome Trust career development award to set up a laboratory at the Genome Damage and Stability Centre at the University of Sussex.</description>
+    </item>
+    
+    <item>
+      <title>ulrike_gruneberg</title>
+      <link>http://cellcycle.org.uk/member/ulrike_gruneberg/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/member/ulrike_gruneberg/</guid>
+      <description>Ulrike Gruneberg is a Senior Medical Research Fellow at the Sir William Dunn School of Pathology in Oxford. Ulrike received her postdoctoral training in the labs of Elmar Schiebel and Erich Nigg and was subsequently awarded a prestigious Cancer Research UK Career Development Fellowship to start her own lab, initially at the University of Liverpool and then at the University of Oxford. Ulrike’s lab studies the mechanisms that regulate spindle formation and chromosome segregation in mammalian cells.</description>
+    </item>
+    
+  </channel>
+</rss>
