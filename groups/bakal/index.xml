@@ -6,10 +6,19 @@
     <description>Recent content in Bakal on BBSRC Bistability of Cell Cycle Transitions Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://cellcycle.org.uk/groups/bakal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cyclin A Triggers Mitosis Either via the Greatwall Kinase Pathway or Cyclin B</title>
+      <link>http://cellcycle.org.uk/publication/hegarat_emboj_2020/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://cellcycle.org.uk/publication/hegarat_emboj_2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A comprehensive model for the proliferation-quiescence decision in response to endogenous DNA damage in human cells</title>

@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://cellcycle.org.uk/publication/novaktyson_mbc_2021/</loc>
+    <lastmod>2021-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://cellcycle.org.uk/publication/novaktyson_curropcellbiol_2021-copy/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://cellcycle.org.uk/publication/novaktyson_trendscellbiol_2020/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://cellcycle.org.uk/publication/hegarat_emboj_2020/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://cellcycle.org.uk/publication/heldt_currbiol_2019/</loc>
     <lastmod>2020-01-09T00:00:00+00:00</lastmod>
   </url>
@@ -219,6 +239,12 @@
   </url>
   
   <url>
+    <loc>http://cellcycle.org.uk/authors/adrijana-crncec/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://cellcycle.org.uk/authors/ahmed-rattani/</loc>
     <lastmod>2017-05-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -237,6 +263,12 @@
   </url>
   
   <url>
+    <loc>http://cellcycle.org.uk/authors/alexis-r-barr/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://cellcycle.org.uk/authors/ana-rozalen/</loc>
     <lastmod>2016-02-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -245,6 +277,12 @@
   <url>
     <loc>http://cellcycle.org.uk/authors/angela-rubio/</loc>
     <lastmod>2016-02-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://cellcycle.org.uk/authors/angus-i-lamond/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -262,19 +300,19 @@
   
   <url>
     <loc>http://cellcycle.org.uk/authors/</loc>
-    <lastmod>2017-05-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://cellcycle.org.uk/</loc>
-    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://cellcycle.org.uk/groups/bakal/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -286,7 +324,7 @@
   
   <url>
     <loc>http://cellcycle.org.uk/authors/bela-novak/</loc>
-    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -298,7 +336,7 @@
   
   <url>
     <loc>http://cellcycle.org.uk/authors/chris-bakal/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -329,6 +367,12 @@
   <url>
     <loc>http://cellcycle.org.uk/authors/fabio-e.-iturra/</loc>
     <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://cellcycle.org.uk/authors/fabio-echegaray-iturra/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -376,7 +420,7 @@
   
   <url>
     <loc>http://cellcycle.org.uk/authors/helfrid-hochegger/</loc>
-    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -394,7 +438,7 @@
   
   <url>
     <loc>http://cellcycle.org.uk/groups/hochegger/</loc>
-    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -442,7 +486,7 @@
   
   <url>
     <loc>http://cellcycle.org.uk/authors/john-j.-tyson/</loc>
-    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -531,6 +575,12 @@
   </url>
   
   <url>
+    <loc>http://cellcycle.org.uk/authors/maria-f-suarez-peredo-rodriguez/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://cellcycle.org.uk/authors/maria-f.-suarez-peredo-rodriguez/</loc>
     <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -539,6 +589,12 @@
   <url>
     <loc>http://cellcycle.org.uk/authors/mary-herbert/</loc>
     <lastmod>2017-05-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://cellcycle.org.uk/authors/masato-t-kanemaki/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -592,7 +648,7 @@
   
   <url>
     <loc>http://cellcycle.org.uk/authors/nadia-hegarat/</loc>
-    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -616,7 +672,19 @@
   
   <url>
     <loc>http://cellcycle.org.uk/groups/novak/</loc>
-    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://cellcycle.org.uk/authors/oliver-busby/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://cellcycle.org.uk/authors/paul-f-lang/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -640,7 +708,7 @@
   
   <url>
     <loc>http://cellcycle.org.uk/publication/</loc>
-    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -759,6 +827,12 @@
   </url>
   
   <url>
+    <loc>http://cellcycle.org.uk/authors/tony-ly/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://cellcycle.org.uk/authors/ulrike-gruneberg/</loc>
     <lastmod>2019-01-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -791,6 +865,12 @@
   <url>
     <loc>http://cellcycle.org.uk/authors/william-c.-earnshaw/</loc>
     <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://cellcycle.org.uk/authors/yan-gu/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
